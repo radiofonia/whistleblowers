@@ -99,14 +99,14 @@
 	if ($('#map').length) {
 		var map = new GMaps({ 
 			div: '#map', 
-			lat: 48.860093, 
-			lng: 2.294694,
+			lat: 50.055873,
+			lng: 19.959647,
 			disableDefaultUI: true,
 		});
 		
 		map.addMarker({ 
-			lat: 48.858093,
-			lng: 2.294694
+			lat: 50.055873,
+			lng: 19.959647
 		});
 	}
 

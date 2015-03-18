@@ -1998,7 +1998,6 @@ form .form-group i .form-control {
   border: 1px solid #fff;
   background-color: #f2f2f2;
   margin: 30px auto;
-  max-width: 300px;
   padding: 30px;
 }
 .team .team-item figure {
@@ -2333,4 +2332,9 @@ form .form-group i .form-control {
   border: none;
   height: 100%;
   width: 100%;
+}
+
+
+i.icon-invisible {
+  opacity: 0;
 }
