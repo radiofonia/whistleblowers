@@ -305,18 +305,35 @@ ul {
   max-width: 400px;
   margin: 0 auto;
 }
-.about-us .about-icon.plane i {
+.about-us .about-icon.eye i {
   background-color: #7dc99a;
 }
-.about-us .about-icon.heart i {
+.about-us .about-icon.target i {
   background-color: #9693c8;
 }
-.about-us .about-icon.comment i {
+.about-us .about-icon.vcard i {
   background-color: #c9c07f;
 }
-.about-us .about-icon.megaphone i {
+.about-us .about-icon.lock i {
   background-color: #dc9291;
 }
+.about-us .about-icon.tools i {
+  background-color: #7dc99a;
+}
+.about-us .about-icon.mobile i {
+  background-color: #9693c8;
+}
+.about-us .about-icon.users i {
+  background-color: #c9c07f;
+}
+.about-us .about-icon.upload-cloud i {
+  background-color: #dc9291;
+}
+.about-us .about-icon.keyboard i {
+  background-color: #dc9291;
+}
+
+
 .about-us .about-icon i {
   border: 10px solid #eef2f3;
   -webkit-border-radius: 50%;
