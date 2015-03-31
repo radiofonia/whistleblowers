@@ -95,21 +95,6 @@
 
 
 
-	/*****************************  $GMaps  ********************************/
-	if ($('#map').length) {
-		var map = new GMaps({ 
-			div: '#map', 
-			lat: 50.055873,
-			lng: 19.959647,
-			disableDefaultUI: true,
-		});
-		
-		map.addMarker({ 
-			lat: 50.055873,
-			lng: 19.959647
-		});
-	}
-
 
 
 	/**********************  $Owl Carousel - Gallery  **********************/
@@ -332,6 +317,23 @@
 
 	$('.donation-item .progress-bar').tooltip({placement: 'top'})
 	$('.donation-item .progress-bar').hover(function() {changeTooltipColorTo('#d91d2b')});
+
+
+	/*****************************  $GMaps  ********************************/
+	if ($('#map').length) {
+		var map = new GMaps({ 
+			div: '#map', 
+			lat: 50.055873,
+			lng: 19.959647,
+			disableDefaultUI: true,
+		});
+		
+		map.addMarker({ 
+			lat: 50.055873,
+			lng: 19.959647
+		});
+	}
+
 
 
 })(jQuery);
