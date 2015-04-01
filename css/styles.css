@@ -1402,7 +1402,7 @@ form .form-group i .form-control {
  *
  *
 /**************************  $Navbar Navigation  ***************************/
-.navbar-nav {
+.navbar-right {
   float: right;
 }
 .navbar-nav>li>a {
