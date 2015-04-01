@@ -2,11 +2,14 @@ Whistleblowers Workshop - Radiofonia
 Toggle navigation
 Home
 About Workshop
+Program
 Team
 Timeline
 Contacts
 Partners
 Register
+EN
+CZ
 Whistleblowers.
 Privacy, Security and Secrecy of Communication
 Register for the workshop
@@ -34,6 +37,50 @@ Dead drop
 Be prepared to accept information anonymously as an organization.
 Play
 The problematique will illustrated by similations at the workshop. We will perform communication patterns of journalists communicating with sources and play hide and seek with security services.
+Program
+10:00
+Block 1. Whistleblowing and privacy landscape of our era.
+Introduction - what are we going to learn, what are we going to
+do, and what are the expected results.
+Whistleblower's and media - about journalistic practice.
+How to make first contact and keep it?
+Outlining privacy and anonymity - what are they, who needs them,
+why do they need them.
+Metadata speaks louder then words - its pitfals and scarry
+reality.
+Surveillance and monitoring of communication technologies -
+government and commercial, passive and active.
+11:30
+Break
+11:45
+Block 2. Anonymity, privacy and secrecy
+Anonymity in theory - about not being identified and
+deanonymization methods.
+Anonymity in practice - software tools to stay anonymous.
+Confidentiality and data safety in theory - about cryptography
+and it's use in communication with sources.
+Confidentiality and data safety in practice - software tools to
+use and best pracitices.
+How can a media agency securely and anonymously accept
+information?
+13:15
+Lunch
+13:45
+Block 3. The game.
+Live action role-playing game: "Whistleblowers", where you will
+become journalists, agents or whistleblowers and try to reach a
+goal in a surveillance world! Before the game we will take some
+time to prepare you, and after it to discuss the results.
+16:45
+Break
+17:00
+Block 4. Recapitulation.
+We'll discuss the game experience, summarize the workshop, listen
+to your feedback and answer remaining questions.
+17:30
+Beer time. The workshop ends at 17:30, but if you want to have a
+beer or coffee with us, stay and lets chat! Unfortunately, we lack
+funds to purchase the drinks for you.
 Team
 We are cross-media fanatics.
 Digital Rights advocate and IT specialist. He is passionate about privacy, freedom of speech and new media serving progressive political change. Researcher and practitioner of grassroot, cooperative action.
@@ -60,7 +107,7 @@ Paralelni Polis, Dělnická 43, Praha 7
 Bratislava
 PDCS, Štúrova 13
 +421 252 925 016
-25 April 2015 | 10:00pm
+24 April 2015 | 10:00pm
 Kraków
 ???
 16 May 2015 | 10:00pm
@@ -70,7 +117,7 @@ Budapest
 Contact
 Don't hestitate to ask your questions.
 e-mail:
-marcin.lewandowski@radiofonia.net
+whistleblowers@radiofonia.net
 Phone: +48 123450373
 Facebook:
 fb.com/radiofonia.fm
@@ -80,9 +127,23 @@ Address: Stowarzyszenie Radiofonia
 Kotlarska 18/6
 31-539 Kraków, Poland
 Partners
+Register
+There're only 15 seats per workshop so don't hesitate!
+Fee is just 10 EUR.
+We will provide a vegetarian lunch.
+We will speak English.
+Please bring your laptop.
+No questions?
+Select location
+Prague, CZ (11.04.2015)
+Bratislava, SK (24.04.2015)
+Kraków, PL (16.05.2015)
+Budapest, HU (06.06.2015)
+Please write a few words about you, your professional background, your interest in the workshop or whatever you think can be relevant for us:
+… otherwise mail us at
+whistleblowers@radiofonia.net
 Copyright 2015 © Stowarzyszenie Radiofonia
 second largest market square in Poland by Monica Kelly @ flickr CC BY-SA 2.0
 Bratislava Old Town by xlibber @ flickr CC BY 2.0
 Hungary-2559 - Fisherman's Bastion and Chain Bridge by Dennis Jarvis CC BY-SA 2.0
-Layout powered By
-			MustacheThemes.
+Layout powered By MustacheThemes.
