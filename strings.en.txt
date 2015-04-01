@@ -19,6 +19,7 @@ The “Privacy, Security and Secrecy of Communication for Journalists and Whistl
 Awareness
 Tools
 Experience
+Takeaways
 Mass Surveillance
 We live in an era of mass data collection, undermining of civil security technologies and off the shelf surveillance tools for national agents. What does this mean for us?
 Privacy & anonymity
@@ -37,6 +38,10 @@ Dead drop
 Be prepared to accept information anonymously as an organization.
 Play
 The problematique will illustrated by similations at the workshop. We will perform communication patterns of journalists communicating with sources and play hide and seek with security services.
+TAILS
+You will receive a live pendrive with
+TAILS
+- operating sytem that aims at preserving your privacy and anonymity.
 Agenda
 10:00
 Block 1. Whistleblowing and privacy landscape of our era.
