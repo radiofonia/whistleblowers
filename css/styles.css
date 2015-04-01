@@ -902,7 +902,7 @@ ul {
   padding-bottom: 0;
 }
 .events h3 {
-  margin-bottom: 100px;
+  margin-bottom: 20px; /* was 100px */
 }
 .events .date {
   border: 6px solid rgba(85,184,163,0.3);
@@ -1240,6 +1240,47 @@ form .form-group i .form-control {
  *
  *
 /***************************  $Links Full Width  ***************************/
+.text-full-width {
+  background-color: #f00;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+
+  padding: 40px 0 40px 0px;
+
+}
+
+.text-full-width.blue25 {
+  background-color: #82a2b7;
+}
+.text-full-width.blue50 {
+  background-color: #638ca2;
+}
+.text-full-width.blue75 {
+  background-color: #204560;
+}
+.text-full-width.blue100 {
+  background-color: #1d3b55;
+}
+
+.text-full-width span {
+  display: block;
+}
+
+.text-full-width p,
+.text-full-width li
+{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.text-full-width:hover p,
+.text-full-width:hover li
+{
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
 .links-full-width {
   background-color: #f00;
   color: rgba(255, 255, 255, 0.5);
