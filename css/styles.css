@@ -2467,3 +2467,13 @@ i.icon-invisible {
   margin: 0 5px 0 0;
 }
 
+/** languages */
+.languages {
+    text-align: right;
+}
+.languages a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.languages a:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
