@@ -668,6 +668,12 @@ in successful whistleblowing campaign against public Universities in Kraków. <a
 					<input type="hidden" name="hosted_button_id" value="S3YBFWCKDGPAA">
 					<input type="hidden" name="on0" value="Location">
 					<input type="hidden" name="on1" value="Write a few words about you">
+					<input type="hidden" name="on2" value="Name">
+					<input type="hidden" name="on3" value="Street">
+					<input type="hidden" name="on4" value="Zip code">
+					<input type="hidden" name="on5" value="City">
+					<input type="hidden" name="on6" value="Country">
+					<input type="hidden" name="on7" value="Tax ID">
 					
 					<div class="form-group">
 						<label for="register-location">Select location</label>
@@ -681,19 +687,52 @@ in successful whistleblowing campaign against public Universities in Kraków. <a
 
 					<div class="form-group">
 						<label for="register-about">Please write a few words about you, your professional background, your interest in the workshop or whatever you think can be relevant for us:</label>
-						<input type="text" name="os1" maxlength="200" class="form-control">
+						<input type="text" name="os1" maxlength="200" class="form-control" id="register-about">
 					</div>
 
 
-
+					<h3>Please share with us your personal/company data (just for the invoice)</h3>
+					<div class="form-group">
+						<label for="register-invoice-name">Full name</label>
+						<input type="text" name="os2" maxlength="200" class="form-control" id="register-invoice-name" required="required">
+					</div>
+					<div class="form-group">
+						<label for="register-invoice-street">Street + house number</label>
+						<input type="text" name="os3" maxlength="200" class="form-control" id="register-invoice-street" required="required">
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="register-invoice-zipcode">Postal code</label>
+								<input type="text" name="os4" maxlength="10" class="form-control" id="register-invoice-zipcode" required="required">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="register-invoice-city">City</label>
+								<input type="text" name="os5" maxlength="10" class="form-control" id="register-invoice-city" required="required">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="register-invoice-country">Country</label>
+								<input type="text" name="os6" maxlength="10" class="form-control" id="register-invoice-country" required="required">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-group">
+								<label for="register-invoice-taxid">Tax ID (for companies)</label>
+								<input type="text" name="os7" maxlength="10" class="form-control" id="register-invoice-taxid">
+							</div>
+						</div>
+					</div>						
 
 
 					<div class="form-group">
 						<input type="submit" value="Register now &amp; and pay 10 EUR via PayPal" name="submit" class="form-control btn btn-primary">
 					</div>
 
-					<h3>… otherwise mail us at <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a>
-</h3>
+					<h3>&hellip; otherwise mail us at <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a></h3>
 
 					<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
 				</form>
