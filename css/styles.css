@@ -58,9 +58,10 @@
 /************************  $Import Fonts and Icons  ************************/
 /*
  *
-/* Lato - From Google Fonts */
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin,latin-ext");
-/*@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic");*/
+/* Roboto - From Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900italic,900&subset=latin,latin-ext);
+/*@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin,latin-ext");*/
+/*@import url("http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic");*/
 /**
  *
  *
@@ -70,7 +71,7 @@
 /*****************************  $General Tags  *****************************/
 a {
   color: #66808c;
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 0.9375em;
   outline: 0;
   -webkit-transition: all 0.2s ease-in-out;
@@ -125,7 +126,7 @@ blockquote i {
 }
 body {
   color: #66808c;
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 16px;
 }
 footer {
@@ -186,7 +187,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: 'Lato';
+  font-family: 'Roboto';
   margin: 20px 0 10px 0;
 }
 h1 {
@@ -268,7 +269,7 @@ embed {
 }
 p {
   color: #66808c;
-  font-family: 'Lato';
+  font-family: 'Roboto';
   font-size: 0.9375em;
   line-height: 1.8em;
 }
@@ -1402,7 +1403,7 @@ form .form-group i .form-control {
  *
  *
 /**************************  $Navbar Navigation  ***************************/
-.navbar-nav {
+.navbar-right {
   float: right;
 }
 .navbar-nav>li>a {

@@ -131,6 +131,13 @@ Bratislava, SK (24.04.2015)
 Kraków, PL (16.05.2015)
 Budapest, HU (06.06.2015)
 Please write a few words about you, your professional background, your interest in the workshop or whatever you think can be relevant for us:
+Please share with us your personal/company data (just for the invoice)
+Full name
+Street + house number
+Postal code
+City
+Country
+Tax ID (for companies)
 … otherwise mail us at
 whistleblowers@radiofonia.net
 Copyright 2015 © Stowarzyszenie Radiofonia
@@ -138,3 +145,20 @@ second largest market square in Poland by Monica Kelly @ flickr CC BY-SA 2.0
 Bratislava Old Town by xlibber @ flickr CC BY 2.0
 Hungary-2559 - Fisherman's Bastion and Chain Bridge by Dennis Jarvis CC BY-SA 2.0
 Layout powered By MustacheThemes.
+function isProduction() {
+			  return window.location.host == "whistleblowers.radiofonia.net";
+			}
+
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  if(isProduction()) {
+		    ga('create', 'UA-41304992-7', 'auto');
+		    ga('send', 'pageview');
+		  
+		    setTimeout(function() {
+		      ga('send', 'event', 'activity', '30s');
+		    }, 30000);
+		  }
