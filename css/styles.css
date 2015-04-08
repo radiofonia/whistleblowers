@@ -1692,6 +1692,12 @@ form .form-group i .form-control {
 .bannercontainer .tp-rightarrow {
   display: none;
 }
+.bannercontainer h3 {
+    background-color: rgba(0,0,0,0.4);
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
 /**
  *
  *
@@ -2225,7 +2231,7 @@ form .form-group i .form-control {
   color: #98adc8;
 }
 .timeline .timeline-item {
-  background-color: rgba(88,118,146,0.3);
+  background-color: rgba(88,118,146,0.3); 
   border: 2px solid #587692;
   clear: both;
   margin: 10px 0;
@@ -2242,6 +2248,9 @@ form .form-group i .form-control {
   -o-transition: all 0.2s linear 0s;
   -ms-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
+}
+.timeline .timeline-item li {
+    color: rgb(200,200,200);
 }
 .timeline .timeline-item:hover {
   border-color: #98adc8;
