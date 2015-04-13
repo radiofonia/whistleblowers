@@ -1412,7 +1412,7 @@ form .form-group i .form-control {
   font-size: 1em;
   font-weight: 700;
   line-height: 30px;
-  margin: 55px 15px;
+  margin: 55px 12px;
   padding: 0;
   position: relative;
   text-transform: uppercase;
@@ -2231,7 +2231,7 @@ form .form-group i .form-control {
   color: #98adc8;
 }
 .timeline .timeline-item {
-  background-color: rgba(88,118,146,0.3); 
+  background-color: rgba(88,118,146,0.3);
   border: 2px solid #587692;
   clear: both;
   margin: 10px 0;

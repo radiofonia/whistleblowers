@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'csv'
 
-target= 'czech'
+targets= ['czech', 'slovak', 'hungarian']
 
 trans = CSV.read("translate.csv")
 headers = trans[0]
@@ -15,6 +15,8 @@ trans[1..-1].each do |phrase|
   translations[phrase[0]] = p
 end
 
+targets.each do |target|
+
 dom = Nokogiri::HTML.parse open("index.html").read()
 
 open("strings.en.txt", "w") do |stringsOut|
@@ -23,7 +25,7 @@ open("strings.en.txt", "w") do |stringsOut|
     s = s.strip
     next if s == ''
     stringsOut.write s + "\n"
-    
+
     t = translations[s]
     if t.nil?
       puts "ERROR! no text for #{s}"
@@ -34,6 +36,8 @@ open("strings.en.txt", "w") do |stringsOut|
   end
 end
 
-puts dom.to_html
+#puts dom.to_html
 
 dom.write_html_to(File.new("index.#{target}.html", 'w'), :encoding => 'UTF-8')
+
+end
