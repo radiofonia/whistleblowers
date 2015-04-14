@@ -1,4 +1,4 @@
-Whistleblowers Workshop - Radiofonia
+Privacy, Security and Secrecy of Communication Workshop - Radiofonia
 Toggle navigation
 Home
 About Workshop
@@ -10,15 +10,18 @@ Partners
 Register
 EN
 CZ
-Whistleblowers.
+SK
+HU
 Privacy, Security and Secrecy of Communication
 Register for the workshop
+See dates
 About The Workshop
 Technologies for people with social impact.
-The “Privacy, Security and Secrecy of Communication for Journalists and Whistleblowers” is a cycle of workshops about privacy, data protection and secrecy for journalists, civil servants, and citizens who wish to expose misconduct, alleged dishonest or illegal activity (whistleblowing). Hands-on workshops (with simulted real-life situation) will cover practice of current communication technologies, awarness and skills necessary to protect privacy, security and secrecy.
+The “Privacy, Security and Secrecy of Communication” is a cycle of workshops for everyone who values being able to remain anonymous, to keep secrets to himself, to communicate with peers without anyone listening, and to avoid having his every step watched. We will talk about anonymity and privacy in age of mass surveillance. During the workshop we will raise awarness, cover practice of current communication technologies, and simulate a real-life eavesdropping to deepen participants' understanding of our digital reality.
 Awareness
 Tools
 Experience
+Takeaways
 Mass Surveillance
 We live in an era of mass data collection, undermining of civil security technologies and off the shelf surveillance tools for national agents. What does this mean for us?
 Privacy & anonymity
@@ -37,12 +40,15 @@ Dead drop
 Be prepared to accept information anonymously as an organization.
 Play
 The problematique will illustrated by similations at the workshop. We will perform communication patterns of journalists communicating with sources and play hide and seek with security services.
+TAILS
+You will receive a live pendrive with
+TAILS
+- operating system that aims at preserving your privacy and anonymity.
 Agenda
 10:00
-Block 1. Whistleblowing and privacy landscape of our era.
+Block 1. Anonymity and privacy landscape of our era.
 Introduction - what are we going to learn, what are we going to do, and what are the expected results.
-Whistleblower's and media - about journalistic practice.
-How to make first contact and keep it?
+Landscape of our digital era - surveillance, leaks, whistleblowers and journalists.
 Outlining privacy and anonymity - what are they, who needs them, why do they need them.
 Metadata speaks louder then words - its pitfals and scarry reality.
 Surveillance and monitoring of communication technologies - government and commercial, passive and active.
@@ -72,8 +78,7 @@ We are cross-media fanatics.
 Digital Rights advocate and IT specialist. He is passionate about privacy, freedom of speech and new media serving progressive political change. Researcher and practitioner of grassroot, cooperative action.
 Marcin Koziej
 Trainer
-Cross-media activist, entrepreneur, community media editor, and team leader of online projects. He participated
-in successful whistleblowing campaign against public Universities in Kraków.
+Cross-media activist, entrepreneur, community media editor, and team leader of online projects. He participated in successful whistleblowing campaign against public Universities in Kraków.
 More…
 Marcin Lewandowski
 Trainer
@@ -87,19 +92,19 @@ TBC
 Local partner (PL)
 Timeline
 Four meetings with a lot of takeaways.
+Kraków
+To be determined
+16 May 2015 | 10:00am
 Prague
 Paralelni Polis, Dělnická 43, Praha 7
-11 April 2015 | 10:00pm
+30 May 2015 | 10:00am
+Budapest
+To be determined
+6 June 2015 | 10:00am
 Bratislava
 PDCS, Štúrova 13
 +421 252 925 016
-24 April 2015 | 10:00pm
-Kraków
-???
-16 May 2015 | 10:00pm
-Budapest
-???
-6 June 2015 | 10:00pm
+12 June 2015 | 10:00am
 Contact
 Don't hestitate to ask your questions.
 e-mail:
@@ -121,11 +126,18 @@ We will speak English.
 Please bring your laptop.
 No questions?
 Select location
-Prague, CZ (11.04.2015)
 Bratislava, SK (24.04.2015)
 Kraków, PL (16.05.2015)
+Prague, CZ (30.05.2015)
 Budapest, HU (06.06.2015)
 Please write a few words about you, your professional background, your interest in the workshop or whatever you think can be relevant for us:
+Please share with us your personal/company data (just for the invoice)
+Full name
+Street + house number
+Postal code
+City
+Country
+Tax ID (for companies)
 … otherwise mail us at
 whistleblowers@radiofonia.net
 Copyright 2015 © Stowarzyszenie Radiofonia
@@ -133,3 +145,20 @@ second largest market square in Poland by Monica Kelly @ flickr CC BY-SA 2.0
 Bratislava Old Town by xlibber @ flickr CC BY 2.0
 Hungary-2559 - Fisherman's Bastion and Chain Bridge by Dennis Jarvis CC BY-SA 2.0
 Layout powered By MustacheThemes.
+function isProduction() {
+			  return window.location.host == "whistleblowers.radiofonia.net";
+			}
+
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  if(isProduction()) {
+		    ga('create', 'UA-41304992-7', 'auto');
+		    ga('send', 'pageview');
+
+		    setTimeout(function() {
+		      ga('send', 'event', 'activity', '30s');
+		    }, 30000);
+		  }
