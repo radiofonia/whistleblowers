@@ -2072,6 +2072,7 @@ form .form-group i .form-control {
   border-radius: 50%;
   overflow: hidden;
   width: 150px;
+  margin: 0 auto;
 }
 .team .team-item h4 {
   clear: both;
