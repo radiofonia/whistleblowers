@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'csv'
 
-targets= ['czech', 'slovak', 'hungarian']
+targets= ['czech', 'slovak', 'hungarian', 'polish']
 
 trans = CSV.read("translate.csv")
 headers = trans[0]
@@ -28,12 +28,24 @@ open("strings.en.txt", "w") do |stringsOut|
 
     t = translations[s]
     if t.nil?
-      puts "ERROR! no text for #{s}"
+      puts "ERROR! no #{target} for #{s}"
     else
       puts "#{t}==#{t[target]}"
       txt.content = t[target]
     end
   end
+  require 'pry'
+  # binding.pry
+  button = dom.xpath("//*[@type='submit']").first
+  puts "A! #{button} #{button['value']}"
+  t = translations[button["value"]]
+  if t.nil?
+    puts "ERROR! no #{target} for #{button['value']}"
+  else
+    puts "#{t}==#{t[target]}"
+    button["value"] = t[target]
+  end
+
 end
 
 #puts dom.to_html

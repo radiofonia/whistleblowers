@@ -12,6 +12,7 @@ EN
 CZ
 SK
 HU
+PL
 Privacy, Security and Secrecy of Communication
 Register for the workshop
 See dates
@@ -25,7 +26,7 @@ Takeaways
 Mass Surveillance
 We live in an era of mass data collection, undermining of civil security technologies and off the shelf surveillance tools for national agents. What does this mean for us?
 Privacy & anonymity
-Technological and cultural shift to producing, sharing and gathering enornmous ammounds of data privacy and anonymity seem dead. Are they?
+With technological and cultural shift to producing, sharing and gathering enornmous ammounds of data privacy and anonymity seem dead. Are they?
 Metadata
 Metadata tells more about you, because contrary to content, it just doesn't lie. Why is that?
 Cryptography
@@ -129,10 +130,10 @@ We will speak English.
 Please bring your laptop.
 No questions?
 Select location
-Bratislava, SK (24.04.2015)
 Kraków, PL (16.05.2015)
 Prague, CZ (30.05.2015)
 Budapest, HU (06.06.2015)
+Bratislava, SK (12.06.2015)
 Please write a few words about you, your professional background, your interest in the workshop or whatever you think can be relevant for us:
 Please share with us your personal/company data (just for the invoice)
 Full name
@@ -141,7 +142,7 @@ Postal code
 City
 Country
 Tax ID (for companies)
-… otherwise mail us at
+… otherwise mail us at 
 whistleblowers@radiofonia.net
 Copyright 2015 © Stowarzyszenie Radiofonia
 second largest market square in Poland by Monica Kelly @ flickr CC BY-SA 2.0

@@ -1417,6 +1417,11 @@ form .form-group i .form-control {
   position: relative;
   text-transform: uppercase;
 }
+
+.languages.navbar-nav>li>a {
+  margin: 55px 4px;
+}
+
 .navbar-nav>li>a:active,
 .navbar-nav>li>a:focus,
 .navbar-nav>li>a:hover {
