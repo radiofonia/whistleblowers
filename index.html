@@ -637,7 +637,7 @@ Cross-media activist, entrepreneur, community media editor, and team leader of o
 					</div>
 				</div>
 
-				<h3>No questions?</h3>
+				<h3>We accept payments via PayPal or Bank transfer</h3> <!-- XXX No Questions? wtf? -->
 
 
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -651,6 +651,8 @@ Cross-media activist, entrepreneur, community media editor, and team leader of o
 					<input type="hidden" name="on5" value="City">
 					<input type="hidden" name="on6" value="Country">
 					<input type="hidden" name="on7" value="Tax ID">
+					<input type="hidden" name="on8" value="Contact">
+
 
 					<div class="form-group">
 						<label for="register-location">Select location</label>
@@ -703,17 +705,61 @@ Cross-media activist, entrepreneur, community media editor, and team leader of o
 							</div>
 						</div>
 					</div>
-
+					<div class="form-group">
+						<label for="register-contact">Contact (e-mail or phone number)</label>
+						<input type="text" name="os8" maxlength="200" class="form-control" id="register-contact" required>
+					</div>
 
 					<div class="form-group">
 						<input type="submit" value="Register now &amp; and pay 10 EUR via PayPal" name="submit" class="form-control btn btn-primary">
 					</div>
 
-					<h3>&hellip; otherwise mail us at&nbsp;<a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a></h3>
+					<h3>&hellip; or if you prefer to use bank transfer:</h3>
+
+					<div class="form-group">
+						<div class="form-control">
+							Recipient name:	Stowarzyszenie Radiofonia
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="form-control">
+							Recipient address: ul. Kotlarska 18/6, 31-539 Kraków
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control">
+							Account number:  56 2030 0045 1110 0000 0267 5230
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control">
+							SWIFT: GOPZPLPW
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control" id="wire-transfer-title">
+							Transfer name: "Privacy workshop, <span class="date">DATE</span>, <span class="full_name">NAME SURNAME</span>"
+						</div>
+					</div>
+
+					<div class="form-group">
+						<a id="wire-transfer-email" class="form-control btn btn-primary" href="mailto:whistleblowers@radiofonia.net?subject=Registration">
+							Click here to send us e-mail with your registration information to whistleblowers@radiofonia.net
+						</a>
+					</div>
+
+
+
+
+					<h3>&hellip; in case of any questions please mail us at&nbsp;<a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a></h3>
 
 					<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
 				</form>
-
 
 			</div>
 		</article>
@@ -770,6 +816,7 @@ Cross-media activist, entrepreneur, community media editor, and team leader of o
 
 		<!-- Custom -->
 		<script src="js/script.js"  ></script>
+		<script src="js/register.js"  ></script>
 
 		<script>
 			function isProduction() {
