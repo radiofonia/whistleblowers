@@ -1420,6 +1420,7 @@ form .form-group i .form-control {
 
 .languages.navbar-nav>li>a {
   margin: 55px 4px;
+  font-size: 0.9em;
 }
 
 .navbar-nav>li>a:active,
