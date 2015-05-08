@@ -129,7 +129,7 @@ Fee is just 10 EUR.
 We will provide a vegetarian lunch.
 We will speak English.
 Please bring your laptop.
-No questions?
+We accept payments via PayPal or Bank transfer
 Select location
 Kraków, PL (18.05.2015)
 Prague, CZ (30.05.2015)
@@ -143,7 +143,22 @@ Postal code
 City
 Country
 Tax ID (for companies)
-… otherwise mail us at 
+Contact (e-mail or phone number)
+… or if you prefer to use wire transfer:
+Recipient name: Stowarzyszenie Radiofonia
+Recipient address: ul. Kotlarska 18/6, 31-539 Kraków
+Account number:  56 2030 0045 1110 0000 0267 5230
+SWIFT: GOPZPLPW
+Transfer name: "Privacy workshop,
+DATE
+,
+NAME SURNAME
+"
+Amount: 10 EUR
+Click here to send us e-mail with your registration information to whistleblowers@radiofonia.net
+…
+in case of any questions please mail us at
+ 
 whistleblowers@radiofonia.net
 Copyright 2015 © Stowarzyszenie Radiofonia
 second largest market square in Poland by Monica Kelly @ flickr CC BY-SA 2.0

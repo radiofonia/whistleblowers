@@ -12,7 +12,8 @@ trans[1..-1].each do |phrase|
   headers[1..-1].each_with_index do |lang, i|
     p[lang] = phrase[i+1]
   end
-  translations[phrase[0]] = p
+  next if phrase[0].nil?
+  translations[phrase[0].strip] = p
 end
 
 targets.each do |target|

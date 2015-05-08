@@ -150,8 +150,7 @@
 							<div class="col-md-3 col-sm-6 about-icon target">
 								<i class="icon-target"></i>
 								<h4>Prywatność i anonimowość</h4>
-								<p>Wraz z technologicznymi i społecznymi zmianami w produkcji, rozpowszechnianiu i gromadzeniu ogromnej ilości danych, prywatność i anonimowość wydają się martwe. Czy tak jest naprawdę?
-</p>
+								<p>With technological and cultural shift to producing, sharing and gathering enornmous ammounds of data privacy and anonymity seem dead. Are they?</p>
 							</div>
 
 							<div class="col-md-3 col-sm-6 about-icon vcard">
@@ -272,7 +271,7 @@
 
 <h3>11:45</h3>
 
-<p>Moduł 2. Anonimowość, prywatność, poufaność</p>
+<p>Moduł 2. Anonimowość, prywatność, poufność</p>
 
 <ul>
 <li>Anonimowość w teorii - o pozostaniu niezidentyfikowanym i metodach deanonimizacji.
@@ -655,7 +654,7 @@
 					</div>
 				</div>
 
-				<h3>Żadnych pytań?</h3>
+				<h3>Przyjmujemy płatności przez PayPal oraz zwykły przelew</h3> <!-- XXX No Questions? wtf? -->
 
 
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -669,6 +668,8 @@
 					<input type="hidden" name="on5" value="City">
 					<input type="hidden" name="on6" value="Country">
 					<input type="hidden" name="on7" value="Tax ID">
+					<input type="hidden" name="on8" value="Contact">
+
 
 					<div class="form-group">
 						<label for="register-location">Wybierz lokalizację</label>
@@ -724,18 +725,58 @@
 							</div>
 						</div>
 					</div>
-
+					<div class="form-group">
+						<label for="register-contact">Kontakt (e-mail lub numer telefonu)</label>
+						<input type="text" name="os8" maxlength="200" class="form-control" id="register-contact" required>
+					</div>
 
 					<div class="form-group">
 						<input type="submit" value="Zarejestruj się i zapłać 10 Euro przez PayPal" name="submit" class="form-control btn btn-primary">
 					</div>
 
-					<h3>… otherwise mail us at <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a>
+					<h3>… lub za przymocą zwykłego przelewu:</h3>
+
+					<div class="form-group">
+						<div class="form-control">Odbiorca: Stowarzyszenie Radiofonia</div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="form-control">Adres odbiorcy: ul. Kotlarska 18/6, 31-539 Kraków</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control">Numer konta:  56 2030 0045 1110 0000 0267 5230</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control">SWIFT: GOPZPLPW</div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control" id="wire-transfer-title">Nazwa przelewu: "Warsztat prywatność,<span class="date">DATA</span>, <span class="full_name">IMIĘ NAZWISKO
+</span>"
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="form-control" id="wire-transfer-amount">Kwota: 40 PLN</div>
+					</div>
+
+					<div class="form-group">
+						<a id="wire-transfer-email" class="form-control btn btn-primary" href="mailto:whistleblowers@radiofonia.net?subject=Registration">Kliknij tu, żeby wysłać do nas e-mail z danymi potrzebnymi do rejestracji na adres whistleblowers@radiofonia.net
+</a>
+					</div>
+
+
+
+
+					<h3>… <span>w przypadku pytań prosimy o e-mail na adres</span> <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a>
 </h3>
 
 					<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
 				</form>
-
 
 			</div>
 		</article>
@@ -792,6 +833,7 @@
 
 		<!-- Custom -->
 		<script src="js/script.js"></script>
+		<script src="js/register.js"></script>
 
 		<script>
 			function isProduction() {

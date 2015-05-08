@@ -149,7 +149,7 @@ Workshop - Radiofonia</title>
 							<div class="col-md-3 col-sm-6 about-icon target">
 								<i class="icon-target"></i>
 								<h4>Soukromí a anonymita</h4>
-								<p>Zdá se, že s příchodem technologických a kulturních změn ve vytváření, sdílení a shromažďování obrovských množství dat, je soukromí a anonymitě konec. Je tomu tak doopravdy?</p>
+								<p>With technological and cultural shift to producing, sharing and gathering enornmous ammounds of data privacy and anonymity seem dead. Are they?</p>
 							</div>
 
 							<div class="col-md-3 col-sm-6 about-icon vcard">
@@ -639,7 +639,7 @@ Workshop - Radiofonia</title>
 					</div>
 				</div>
 
-				<h3>Žádné otázky?</h3>
+				<h3></h3> <!-- XXX No Questions? wtf? -->
 
 
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -653,6 +653,8 @@ Workshop - Radiofonia</title>
 					<input type="hidden" name="on5" value="City">
 					<input type="hidden" name="on6" value="Country">
 					<input type="hidden" name="on7" value="Tax ID">
+					<input type="hidden" name="on8" value="Contact">
+
 
 					<div class="form-group">
 						<label for="register-location">Vyberte místo</label>
@@ -705,18 +707,56 @@ Workshop - Radiofonia</title>
 							</div>
 						</div>
 					</div>
-
+					<div class="form-group">
+						<label for="register-contact"></label>
+						<input type="text" name="os8" maxlength="200" class="form-control" id="register-contact" required>
+					</div>
 
 					<div class="form-group">
 						<input type="submit" value="Register now &amp; and pay 10 EUR via PayPal" name="submit" class="form-control btn btn-primary">
 					</div>
 
-					<h3>… otherwise mail us at <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a>
+					<h3></h3>
+
+					<div class="form-group">
+						<div class="form-control"></div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="form-control"></div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control"></div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control"></div>
+					</div>
+
+					<div class="form-group">
+						<div class="form-control" id="wire-transfer-title"><span class="date"></span>, <span class="full_name"></span>"
+						</div>
+					</div>
+
+
+					<div class="form-group">
+						<div class="form-control" id="wire-transfer-amount"></div>
+					</div>
+
+					<div class="form-group">
+						<a id="wire-transfer-email" class="form-control btn btn-primary" href="mailto:whistleblowers@radiofonia.net?subject=Registration"></a>
+					</div>
+
+
+
+
+					<h3>… <span></span> <a href="mailto:whistleblowers@radiofonia.net">whistleblowers@radiofonia.net</a>
 </h3>
 
 					<img alt="" border="0" src="https://www.paypalobjects.com/pl_PL/i/scr/pixel.gif" width="1" height="1">
 				</form>
-
 
 			</div>
 		</article>
@@ -773,6 +813,7 @@ Workshop - Radiofonia</title>
 
 		<!-- Custom -->
 		<script src="js/script.js"></script>
+		<script src="js/register.js"></script>
 
 		<script>
 			function isProduction() {
