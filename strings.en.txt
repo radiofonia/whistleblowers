@@ -17,7 +17,6 @@ Privacy, Security and Secrecy of Communication
 Register for the workshop
 See dates
 About The Workshop
-Technologies for people with social impact.
 The “Privacy, Security and Secrecy of Communication” is a cycle of workshops for everyone who values being able to remain anonymous, to keep secrets to himself, to communicate with peers without anyone listening, and to avoid having his every step watched. We will talk about anonymity and privacy in age of mass surveillance. During the workshop we will raise awarness, cover practice of current communication technologies, and simulate a real-life eavesdropping to deepen participants' understanding of our digital reality.
 Awareness
 Tools
