@@ -35,7 +35,7 @@ open("strings.en.txt", "w") do |stringsOut|
       txt.content = t[target]
     end
   end
-  require 'pry'
+  #require 'pry'
   # binding.pry
   button = dom.xpath("//*[@type='submit']").first
   puts "A! #{button} #{button['value']}"
